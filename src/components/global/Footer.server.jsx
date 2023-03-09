@@ -34,6 +34,14 @@ export function Footer({menu}) {
         </Heading>
         <CountrySelector />
       </section>
+
+      <a href="https://app.netlify.com/sites/dl-shopify-hydrogen-netlify-001/deploys">
+        <img
+          alt="netlify"
+          src="https://api.netlify.com/api/v1/badges/1b0e25cd-4528-42f7-b7db-c0737f5bce01/deploy-status"
+        />
+      </a>
+
       <div
         className={`self-end pt-8 opacity-50 md:col-span-2 lg:col-span-${itemsCount}`}
       >
